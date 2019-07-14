@@ -1,0 +1,201 @@
+#thescene {
+	position: absolute;
+	width: 98%;
+	height: 98%;
+	overflow: hidden;
+	background: linear-gradient(#82b3fd, #bed5fd);
+}
+
+#preScene {
+	position: absolute;
+	width: 98%;
+	height: 98%;
+	overflow: hidden;
+	background: linear-gradient(#82b3fd, #bed5fd);
+}
+
+div#d01 {    
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align : center;
+  -moz-box-align    : center;
+  -ms-flex-align    : center;
+  -webkit-align-items : center;
+  align-items : center ;
+  justify-content : center;
+  -webkit-justify-content : center;
+  -webkit-box-pack : center;
+  -moz-box-pack : center;
+  -ms-flex-pack : center;
+}
+
+table, th, td {
+  border: 4px solid black;
+  border-spacing: 1px;
+}
+th, td {
+  text-align: center;
+}
+table#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+table#t01 th {
+  background-color: black;
+  color: white;
+}
+.msgDysplay {
+	font-weight: bold;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	pointer-events: none;
+}
+
+.message--gameOverStopPause {
+	font-size: 2.25vw;
+	bottom: 60vh;
+	display: none;
+	text-indent: 0.5em;
+	letter-spacing: 0.5em;
+	color: #fff;
+}
+
+.msgDysplayNotUpper {
+	font-weight: bold;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	pointer-events: none;
+}
+
+.message--lifePenalty {
+	font-size: 1.5vw;
+	bottom: 20vh;
+	display: none;
+	text-indent: 0.5em;
+	letter-spacing: 0.5em;
+	color: #D2691E;
+}
+
+.message--pointWin {
+	font-size: 1.5vw;
+	bottom: 15vh;
+	display: none;
+	text-indent: 0.5em;
+	letter-spacing: 0.5em;
+	color: #fff;
+}
+
+.message--totalScore {
+	font-size: 1.5vw;
+	bottom: 50vh;
+	display: none;
+	text-indent: 0.5em;
+	letter-spacing: 0.5em;
+	color: #fff;
+}
+
+.message--actualLevel {
+	font-size: 1.5vw;
+	bottom: 40vh;
+	display: none;
+	text-indent: 0.5em;
+	letter-spacing: 0.5em;
+	color: #fff;
+}
+
+.message--instructionGame {
+	font-size: 1.25vw;
+	bottom: 40vh;
+	display: block;
+	text-indent: 0.3em;
+	letter-spacing: 0.3em;
+	color: #ffff;
+}
+
+.myButtonStart {
+	-moz-box-shadow: 0px 0px 0px 2px #9fb4f2;
+	-webkit-box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #000000), color-stop(1, #476e9e));
+	background:-moz-linear-gradient(top, #000000 5%, #476e9e 100%);
+	background:-webkit-linear-gradient(top, #000000 5%, #476e9e 100%);
+	background:-o-linear-gradient(top, #000000 5%, #476e9e 100%);
+	background:-ms-linear-gradient(top, #000000 5%, #476e9e 100%);
+	background:linear-gradient(to bottom, #000000 5%, #476e9e 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#3c3234',GradientType=0);
+	background-color:#000000;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:20px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.myButtonStart:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #476e9e), color-stop(1, #7892c2));
+	background:-moz-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-webkit-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-o-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-ms-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#476e9e', endColorstr='#7892c2',GradientType=0);
+	background-color:#476e9e;
+}
+.myButtonStart:active {
+	position:center;
+	top:1px;
+}
+
+.myButton {
+	-moz-box-shadow: 0px 0px 0px 2px #9fb4f2;
+	-webkit-box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #000000), color-stop(1, #476e9e));
+	background:-moz-linear-gradient(top, #000000 5%, #476e9e 100%);
+	background:-webkit-linear-gradient(top, #000000 5%, #476e9e 100%);
+	background:-o-linear-gradient(top, #000000 5%, #476e9e 100%);
+	background:-ms-linear-gradient(top, #000000 5%, #476e9e 100%);
+	background:linear-gradient(to bottom, #000000 5%, #476e9e 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#3c3234',GradientType=0);
+	background-color:#000000;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:20px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #476e9e), color-stop(1, #7892c2));
+	background:-moz-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-webkit-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-o-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-ms-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#476e9e', endColorstr='#7892c2',GradientType=0);
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
